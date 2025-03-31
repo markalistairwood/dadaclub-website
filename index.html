@@ -4,82 +4,83 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Dada Club</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Georgia', serif;
-      color: #f2e9e4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      height: 100vh;
-      background: url('background.jpg') no-repeat center center fixed;
-      background-size: cover;
-      position: relative;
-    }
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    color: #f2e9e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('_b1201e2a-26dc-407a-95c3-438a063cf752.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #0e0c0c; /* fallback color */
+    position: relative;
+  }
 
-    /* Subtle overlay for legibility */
-    body::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background: rgba(10, 10, 10, 0.7); /* deep translucent overlay */
-      z-index: 0;
-    }
+  /* Overlay for contrast and mood */
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(10, 10, 10, 0.7); /* soft dark overlay */
+    z-index: 0;
+  }
 
-    .content {
-      position: relative;
-      z-index: 1;
-      padding: 1rem;
-      max-width: 600px;
-    }
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 1rem;
+    max-width: 600px;
+  }
 
-    h1 {
-      font-size: 2.8rem;
-      letter-spacing: 2px;
-      margin-bottom: 0.5em;
-    }
+  h1 {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+  }
 
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-      opacity: 0.85;
-    }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    opacity: 0.85;
+  }
 
-    form {
-      margin-top: 2em;
-    }
+  form {
+    margin-top: 2em;
+  }
 
-    input[type="email"] {
-      padding: 0.5em;
-      font-size: 1rem;
-      border: none;
-      width: 250px;
-      max-width: 80%;
-    }
+  input[type="email"] {
+    padding: 0.5em;
+    font-size: 1rem;
+    border: none;
+    width: 250px;
+    max-width: 80%;
+  }
 
-    input[type="submit"] {
-      background: #e63946;
-      color: white;
-      border: none;
-      padding: 0.6em 1.2em;
-      font-size: 1rem;
-      cursor: pointer;
-      margin-left: 0.5em;
-    }
+  input[type="submit"] {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 0.5em;
+  }
 
-    footer {
-      position: absolute;
-      bottom: 1em;
-      font-size: 0.9rem;
-      color: #bbb;
-    }
-  </style>
+  footer {
+    position: absolute;
+    bottom: 1em;
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+</style>
 </head>
 <body>
   <div class="content">
